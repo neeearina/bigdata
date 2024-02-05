@@ -10,7 +10,7 @@ class Incidents:
         self.__headers = ["creature", "place", "danger", "date"]
         self.__result = []
 
-    def create_result_file(self):
+    def create_result_file(self) -> None:
         self.__result_data()
         self.__write_to_csv()
 
