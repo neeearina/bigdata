@@ -1,3 +1,4 @@
+"""Cколько уникальных пользователей посетило сайт в каждый из дней"""
 import typing
 
 data: dict[str, typing.Union[set, int]] = {}
